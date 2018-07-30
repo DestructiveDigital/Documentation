@@ -17,16 +17,25 @@ To bring up an environment navigate to the root directory of the project in a ba
 |-- public
 -- qa.conf`
 
-Then type:`./ddenv up --build ` and to use detached mode add the `-d` detached flag `./ddenv up --build -d`.
+You will need to be using a bash shell, if you are in windows ensure that you are using git bash. To bring up the docker environment execute the bellow command:
 
-The docker environment will now build and run.
+Windows: `./ddenv up --build ` 
 
+Mac: `sh ./ddenv up --build `
+
+Linux: `bash ./ddenv up --build `
+
+If you wish to use a domain in the place of local host then add a record to /etc/hosts
 
 ## Tearing Down Project
 
-To then tear down all of the associated resources similar to the functionality of `vagrant destroy` execute `./ddenv down`.
+To then tear down all of the associated resources similar to the functionality of `vagrant destroy` execute:
 
-It would then be advisable to update your /etc/hosts so to route any domain to the correct location.
+Windows: `./ddenv down`
+
+Mac: `sh ./ddenv down`
+
+Linux: `bash ./ddenv down`
  
 
 ## Changing the environment
