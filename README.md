@@ -1,4 +1,4 @@
-<img src="/assets/images/logo-main.svg" alt="DD Logo" style="width: 300px; position: relative; left: 50%; transform: translateX(-50%);">
+<img src="https://github.com/DestructiveDigital/guidelines/raw/master/assets/images/logo-main.svg?sanitize=true" alt="DD Logo" style="width: 300px; position: relative; left: 50%; transform: translateX(-50%);">
 
 # Welcome
 
