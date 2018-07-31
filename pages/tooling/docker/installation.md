@@ -3,8 +3,13 @@
 
 ## Installation
 
-Install docker on your system:
-https://docs.docker.com/install/
+Install Docker on your system:
+
+[Mac OS](https://docs.docker.com/docker-for-mac/install/): https://docs.docker.com/docker-for-mac/install/
+
+[Windows](https://docs.docker.com/docker-for-windows/install/): https://docs.docker.com/docker-for-windows/install/
+
+[Linux](https://docs.docker.com/install): https://docs.docker.com/install
 
 If you are on windows and do not have Git bash installed you will need to additionally install that:
 https://gitforwindows.org/
