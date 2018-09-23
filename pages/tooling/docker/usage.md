@@ -5,6 +5,15 @@
 
 Each of the environments (dev, qa etc) will have it's own docker-compose.{env_name}.yaml file, in this all of the custom configuration for the application should be entered. For Wordpress the details entered into there will be propagated into wordpress.conf. In addition to the wordpress.conf there is a environment specific php.ini file, this is called either 'php.dev.ini' or 'php.qa.ini', these are used to apply additional PHP overrides in each environment.
 
+The containers that are created during the `docker-compose up` process are created from the base MySQL and WordPress images that are maintained by the relevant organisations. The Mysql/WordPress images are stored on docker hubs, with the dockerfile used to build them in their respective Github repository’s. The docker engine will pull down the relevant image from docker hubs when there is not a cached version available locally.
+
+For referance, the links to these the links to these images are below, however the procurement of the image is done automatically by docker.
+
+https://hub.docker.com/_/wordpress/
+
+https://hub.docker.com/_/mysql/
+
+
 To bring up an environment navigate to the root directory of the project in a bash shell, the root of the project should look similar to the below:
 
 `|-- README.md
